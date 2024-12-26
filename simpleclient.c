@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
     }
     write(sockfd, &ch, 1);
     read(sockfd, &ch, 1);
-    printf("char from server = %c\n", ch);
+    printf("Char from server = %c\n", ch);
     close(sockfd);
     exit(0);
 }
