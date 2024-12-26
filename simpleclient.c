@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 
     if (result == -1)
     {
-        perror("oops: client1");
+        perror("Oops: client1");
         exit(1);
     }
     write(sockfd, &ch, 1);
@@ -31,3 +31,4 @@ int main(int argc, char *argv[])
     close(sockfd);
     exit(0);
 }
+
